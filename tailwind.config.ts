@@ -1,3 +1,4 @@
+import { space } from "postcss/lib/list";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -39,6 +40,10 @@ const config: Config = {
       },
       screens: {
         xs: "420px",
+      },
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        spaceGrotesk: ["var(--font-space-grotesk)"],
       },
     },
   },
